@@ -16,6 +16,9 @@ export const Navbar = () => {
 			<NavLink style={navLinkStyles} to='/about'>
 				About
 			</NavLink>
+			<NavLink style={navLinkStyles} to='/posts'>
+				Posts
+			</NavLink>
 		</nav>
 	);
 };
